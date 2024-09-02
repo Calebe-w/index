@@ -1,0 +1,57 @@
+/* Reset de margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que o padding não afete o tamanho dos elementos */
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o menu de navegação */
+nav {
+    background-color: #333; /* Cor de fundo do menu */
+}
+
+nav ul {
+    list-style-type: none; /* Remove marcadores de lista */
+    display: flex; /* Alinha itens horizontalmente */
+    justify-content: center; /* Centraliza os itens */
+    margin: 0; /* Remove margem do <ul> */
+    padding: 10px 0; /* Espaçamento vertical interno do menu */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+}
+
+nav ul li a {
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 5px 10px; /* Espaçamento interno do link */
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo para o conteúdo */
+section {
+    padding: 50px 300px;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+  }
+
+h1 {
+    padding: 40px
+  }  
+ 
+p {
+    padding: 15px
+}  
